@@ -1,14 +1,6 @@
 use std::collections::HashMap;
-use std::io;
 
 fn main() {
-    // println!("please enter a list numbers : ");
-    // let mut number = String::new();
-    // io::stdin().read_line(&mut number)
-    //     .expect("error reading numbers");
-    // let number = number.split_whitespace()
-    //     .map(|&x| x.parse::<u32>().unwrap());
-
     let origin_number = [1, 2, 1, 1, 5, 8, 6, 1, 10, 9];
     let mut numbers = origin_number.to_vec();
     numbers.sort();
